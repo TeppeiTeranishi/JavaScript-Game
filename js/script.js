@@ -11,7 +11,7 @@ function randomTime(min, max) {
 
 function randomHole(holes) {
     const idx = Math.floor(Math.random() * holes.length);
-    const hole = holes[idk];
+    const hole = holes[idx];
     if (hole === lastHole) {
         console.log('Ah nah thats the same one bud');
         return randomHole(holes);
